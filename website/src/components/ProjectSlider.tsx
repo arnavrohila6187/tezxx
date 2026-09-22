@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import { Building2 } from "lucide-react";
 
 export function ProjectSlider({ images, altText }: { images: string[], altText: string }) {
@@ -37,11 +36,10 @@ export function ProjectSlider({ images, altText }: { images: string[], altText: 
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className="absolute inset-0"
         >
-          <Image
+          <img
             src={images[currentIndex]}
             alt={`${altText} - image ${currentIndex + 1}`}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-700"
+            className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 absolute inset-0"
           />
         </motion.div>
       </AnimatePresence>
