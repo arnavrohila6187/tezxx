@@ -31,7 +31,7 @@ export default function ProjectsPage() {
         const files = fs.readdirSync(dirPath);
         // Find all image files
         const imageFiles = files.filter(file => /\.(jpg|jpeg|png|webp|gif)$/i.test(file));
-        images = imageFiles.map(file => `/large scale projects/${entry.name}/${file}`);
+        images = imageFiles.map(file => encodeURI(`/large scale projects/${entry.name}/${file}`));
       } catch (err) {
         console.error(`Error reading directory ${dirPath}:`, err);
       }
