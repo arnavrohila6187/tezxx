@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-900: #020617; /* Very dark slate blue */
+  --color-brand-800: #0f172a;
+  --color-brand-700: #1e293b;
+  --color-brand-600: #334155;
+  --color-brand-accent: #2563eb; /* Vibrant blue for accents */
+  
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #f8fafc; /* Clean off-white */
+  --foreground: #020617; /* Very dark blue */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #020617; /* Deep brand blue */
+    --foreground: #f8fafc;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
