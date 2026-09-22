@@ -77,15 +77,15 @@ export function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3 text-slate-400 text-sm">
                 <MapPin size={18} className="text-brand-accent shrink-0 mt-0.5" />
-                <span>123 Industrial Area, Sector 45,<br />Gurgaon, Haryana, India</span>
+                <span>Kurukshetra, Haryana, India</span>
               </li>
               <li className="flex items-center gap-3 text-slate-400 text-sm">
                 <Phone size={18} className="text-brand-accent shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 82228 22220</span>
               </li>
               <li className="flex items-center gap-3 text-slate-400 text-sm">
                 <Mail size={18} className="text-brand-accent shrink-0" />
-                <span>info@tezxx.com</span>
+                <span>anshulochemdealer@gmail.com</span>
               </li>
             </ul>
           </div>

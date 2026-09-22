@@ -127,7 +127,7 @@ export default function EnquiryPage() {
                     <div>
                       <h4 className="text-white font-semibold mb-1">Our Location</h4>
                       <p className="text-slate-400 text-sm leading-relaxed">
-                        123 Industrial Area, Sector 45,<br />Gurgaon, Haryana, India
+                        Kurukshetra, Haryana, India
                       </p>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ export default function EnquiryPage() {
                     <div>
                       <h4 className="text-white font-semibold mb-1">Call Us</h4>
                       <p className="text-slate-400 text-sm leading-relaxed">
-                        +91 98765 43210<br />+91 12345 67890
+                        +91 82228 22220
                       </p>
                     </div>
                   </div>
@@ -151,7 +151,7 @@ export default function EnquiryPage() {
                     <div>
                       <h4 className="text-white font-semibold mb-1">Email Us</h4>
                       <p className="text-slate-400 text-sm leading-relaxed">
-                        info@tezxx.com<br />sales@tezxx.com
+                        anshulochemdealer@gmail.com
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ export default function EnquiryPage() {
                         type="tel" 
                         id="phone" 
                         className="w-full bg-brand-800/50 border border-white/10 rounded-xl px-5 py-4 text-white placeholder-slate-500 focus:outline-none focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 82228 22220"
                         value={formData.phone}
                         onChange={(e) => setFormData({...formData, phone: e.target.value})}
                         required
